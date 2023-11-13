@@ -3,10 +3,10 @@ import { defineStore } from 'pinia';
 export const useStatusStore = defineStore('status', {
   state: () => ({ open: false }),
   actions: {
-    openMenu() {
+    openSidebar() {
       this.open = true;
     },
-    closeMenu() {
+    closeSidebar() {
       this.open = false;
     }
   }
