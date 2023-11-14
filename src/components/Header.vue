@@ -151,6 +151,7 @@
   .header {
     display: flex;
     justify-content: end;
+    height: 50px;
   }
   .hamburger {
     width: 50px;
